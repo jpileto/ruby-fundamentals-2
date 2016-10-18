@@ -20,3 +20,8 @@ end
 students.delete(:cohort2)
 students.each do |k, v| puts "#{k}: #{(v * 1.05).to_i}"
 end
+
+c = 0
+students.each do |k,v| c += v
+  puts "#{c}"
+end
